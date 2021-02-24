@@ -1,0 +1,232 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	font-size: 21px;
+}
+
+.container {
+	width: 100%;
+	border: 3px solid black;
+	box-sizing: border-box;
+}
+
+/*Awal Nav*/
+
+.container nav {
+	background-color: #0245A3;
+	color: #fff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.container header {
+	padding: 5px 10px;
+}
+
+.container header h3 {
+	font-size: 21px;
+}
+
+.container header p {
+	font-style: italic;
+	font-size: 17px;
+}
+
+.container nav ul {
+	display: flex;
+	width: 55%;
+	justify-content: space-around;
+	position: relative;
+}
+
+.container nav ul li {
+	list-style: none;
+}
+
+.container nav ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.container nav ul li a:hover {
+	color: #ddd;
+}
+
+
+/* Awal : Lesson / Study*/
+.lesson {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin-top: 4px;
+}
+
+.lesson:hover .lessons {
+	display: flex;
+}
+
+.lesson .lessons {
+	display: none;
+	flex-direction: column;
+	background-color: #303841;
+	padding: 10px;
+	position: absolute;
+	top: 23px;
+	z-index: 1;
+	width: 150px;
+	border-radius: 3px;
+}
+
+.lessons li {
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	padding: 3px;
+	text-align: center;
+}
+
+.lesson li a {
+	color: #fff;
+}
+/* Awal : Lesson / Study*/ 
+
+.menu-toggle {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 10px;
+}
+
+.menu-toggle span {
+	width: 28px;
+	height: 4px;
+	background-color: #fff;
+	margin: 3px 0;
+	z-index: 1;
+	border-radius: 5px;
+}
+
+.menu-toggle input {
+	position: absolute;
+	right: 9px;
+	bottom: 10px;
+	transform: scale(2.5);
+	opacity: 0;
+	z-index: 2;
+	cursor: pointer;
+}
+
+.menu-toggle input:checked ~ .satu {
+	transform-origin: 0 0;
+	transform: rotate(45deg);
+	position: relative;
+	left: 3px;
+}
+
+
+
+.menu-toggle input:checked ~ .dua {
+	transform: scale(0);
+}
+
+.menu-toggle input:checked ~ .tiga {
+	transform-origin: 0 0;
+	transform: rotate(-45deg);
+	position: relative;
+}
+
+/*Akhir Nav*/
+
+/*Awal Banner*/
+.banner {
+	background-image: url(Photos/banner.png);
+	width: 100%;
+	background-size: cover;
+	height: 290px;
+	box-sizing: border-box;
+	filter: saturate(1.5) brightness(1.2);
+}
+/*Akhir Banner*/
+
+
+/*Awal Main*/
+main {
+	box-sizing: border-box;
+	display: flex;	
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+/*Section Intro*/
+main section.intro {
+	display: flex;
+	border: 5px solid red;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40%;
+	padding: 10px;
+	text-align: center;
+	margin-bottom: 175px;
+	margin-top: 100px;
+}
+
+section.intro h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 23px;
+}
+
+
+section.intro p {
+	font-size: 19px;
+}
+
+/*Section Reason*/
+main section.reason {
+	display: flex;
+	border: 5px solid blue;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	text-align: center;
+	width: 40%;
+}
+
+section.reason h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 23px;
+}
+
+
+section.reason p {
+	font-size: 19px;
+}
+
+/*Akhir Main*/
+
+/*Awal Footer*/
+
+footer {
+	display: flex;
+	background-color: #303841;
+	justify-content: center;
+	align-items: center;
+	height: 45px;
+}
+
+footer p {
+	color: #ddd;
+	font-size: 17px;
+}
+
+/*Akhir Footer*/

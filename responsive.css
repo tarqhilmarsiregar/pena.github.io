@@ -1,0 +1,174 @@
+/*Responsive*/
+
+/*Ukuran max-width 375px*/
+@media screen and (max-width: 375px) {
+	
+	/*Nav*/
+
+	.container header {
+		width: 80%;
+		text-align: center;
+	}
+
+	.container header h3 {
+		font-size: 19px;
+	}
+
+	.container header p {
+		font-size: 14px;
+	}
+
+	.container nav ul li {
+		display: none;
+	}
+	/*Akhir Nav*/
+
+	/*Banner*/
+	.banner {
+		height: 125px;
+	}
+	/*Akhir Banner*/
+
+	/*Main*/
+	main section.intro {
+		border: 5px solid red;
+		width: 80%;
+	}
+
+	section.intro h3 {
+		font-size: 20px;
+	}
+
+	section.intro p {
+		font-size: 18px;
+	}
+
+	main section.reason {
+		border: 5px solid blue;
+		width: 80%;
+	}
+
+	section.reason h3 {
+		font-size: 20px;
+	}
+
+	section.reason p {
+		font-size: 18px;
+	}
+	/*Akhir Main*/
+
+	/*Footer*/
+	footer p {
+		font-size: 15px;
+	}
+	/*Akhir Footer*/
+}
+/*Akhir*/
+
+
+@media screen and (max-width: 576px) {
+
+	/*Nav*/
+	.container header {
+		width: 90%;
+		text-align: center;
+	}
+
+	.container header h3 {
+		font-size: 20px;
+	}
+
+	.container header p {
+		font-size: 15px;
+	}
+
+	.container nav ul li {
+		display: none;
+	}
+	/*Akhir Nav*/
+	
+	/*Banner*/
+	.banner {
+		height: 130px;
+	}
+	/*Akhir Banner*/
+
+	/*Main*/
+	main section.intro {
+		border: 5px solid red;
+		width: 85%;
+	}
+
+	section.intro h3 {
+		font-size: 21px;
+	}
+
+	section.intro p {
+		font-size: 19px;
+	}
+
+	main section.reason {
+		border: 5px solid blue;
+		width: 85%;
+	}
+
+	section.reason h3 {
+		font-size: 21px;
+	}
+
+	section.reason p {
+		font-size: 19px;
+	}
+	/*Akhir Main*/
+}
+
+/*Ukuran max-width 768px*/
+@media screen and (max-width: 768px) {
+
+	/*Nav*/
+	.container nav ul li {
+		display: none;
+	}
+	/*Akhir Nav*/
+
+	/*Banner*/
+	.banner {
+		height: 233px;
+	}
+	/*Akhir Banner*/
+
+	/*Main*/
+	main section.intro {
+		border: 5px solid red;
+		width: 75%;
+	}
+
+	section.intro h3 {
+		font-size: 22px;
+	}
+
+	section.intro p {
+		font-size: 19px;
+	}
+
+	main section.reason {
+		border: 5px solid blue;
+		width: 75%;
+	}
+
+	section.reason h3 {
+		font-size: 22px;
+	}
+
+	section.reason p {
+		font-size: 19px;
+	}
+	/*Akhir Main*/
+}
+
+
+@media screen and (min-width: 769px) {
+	.menu-toggle {
+		display: none;
+	}
+}
