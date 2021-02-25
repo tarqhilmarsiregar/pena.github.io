@@ -4,84 +4,86 @@
 }
 
 body {
-	font-family: arial;
 	font-size: 21px;
-	background-image: url(../Photos/spikes.png);
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-	border: 3px solid black;
+	width: 100%;
 	box-sizing: border-box;
 }
 
-/*Nav Header*/
-header {
-	padding: 5px;		
-}
-
-header h3 {
-	font-size: 21px;
-}
-
-header h4 {
-	font-weight: bold;
-	font-size: 19px;
-} 
-/*Akhir*/
-
-.container nav {
-	background-color: #0245A3;
-	color: #fff;
-}
-
-/*Main*/
-section {
-	display: flex;
-	justify-content: center;
-	margin: 157px auto;
-	border: 3px solid black;
-	width: 60%;
-	height: 250px;
-	background-color: #fff;
-	box-shadow: 8px 8px 3px rgba(0,0,0,0.5);
-	border-top-left-radius: 50px;
-	border-bottom-right-radius: 50px;
-}
-
-.container main {
+/* Header */
+.container header {
+	width: 100%;
+	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background-color: #0245A3;
+	color: #fff;
+	padding: 10px;
 }
 
-main .contact-img {
+.container header h3 {
+	font-size: 20px;
+}
+
+/* Akhir */
+
+/* Banner */
+.container .banner-img {
 	background-image: url(../Photos/kontak.jpg);
-	width: 180px;
-	height: 180px;
+	width: 100%;
+	height: 225px;
 	background-size: cover;
-	border: 3px solid #1A2C5B;
-	border-radius: 50%;
-	margin-right: 20px;
+	border-bottom: 5px solid orange;
 }
 
-main article {
-	width: 525px;
-	height: 150px;
-	border: 2px solid #F6C90E;
-	border-radius: 10px;
-	padding: 9px;
+/* Akhir */
+
+
+/* Main */
+main {
+	box-sizing: border-box;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
+	margin: 105px auto;
 }
 
-main article p {
+main .utama {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	width: 50%;
+	padding: 12px;
+}
+
+.utama section.satu {
+	border: 3px solid deepskyblue;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+section.satu h4 {
+	font-size: 23px;
+}
+
+.utama section.dua {
+	border-left: 3px solid deeppink;
+	padding: 10px;
+	box-shadow: 3px 0 3px rgba(0, 0, 0, .5);
+}
+
+section.dua p {
 	font-size: 19px;
 }
-/*Akhir*/
 
-/*Awal Footer*/
+/* Akhir */
 
+/* Footer */
 footer {
 	display: flex;
 	background-color: #303841;
@@ -95,4 +97,4 @@ footer p {
 	font-size: 17px;
 }
 
-/*Akhir Footer*/
+/* Akhir */
