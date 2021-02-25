@@ -169,7 +169,6 @@ main {
 /*Section Intro*/
 main section.intro {
 	display: flex;
-	border: 5px solid red;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -194,7 +193,6 @@ section.intro p {
 /*Section Reason*/
 main section.reason {
 	display: flex;
-	border: 5px solid blue;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
