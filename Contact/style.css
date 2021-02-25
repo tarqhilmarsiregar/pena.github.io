@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: arial;
+	font-size: 21px;
+	background-image: url(../Photos/spikes.png);
+}
+
+.container {
+	border: 3px solid black;
+	box-sizing: border-box;
+}
+
+/*Nav Header*/
+header {
+	padding: 5px;		
+}
+
+header h3 {
+	font-size: 21px;
+}
+
+header h4 {
+	font-weight: bold;
+	font-size: 19px;
+} 
+/*Akhir*/
+
+.container nav {
+	background-color: #0245A3;
+	color: #fff;
+}
+
+/*Main*/
+section {
+	display: flex;
+	justify-content: center;
+	margin: 157px auto;
+	border: 3px solid black;
+	width: 60%;
+	height: 250px;
+	background-color: #fff;
+	box-shadow: 8px 8px 3px rgba(0,0,0,0.5);
+	border-top-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+.container main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main .contact-img {
+	background-image: url(../Photos/kontak.jpg);
+	width: 180px;
+	height: 180px;
+	background-size: cover;
+	border: 3px solid #1A2C5B;
+	border-radius: 50%;
+	margin-right: 20px;
+}
+
+main article {
+	width: 525px;
+	height: 150px;
+	border: 2px solid #F6C90E;
+	border-radius: 10px;
+	padding: 9px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+main article p {
+	font-size: 19px;
+}
+/*Akhir*/
+
+/*Awal Footer*/
+
+footer {
+	display: flex;
+	background-color: #303841;
+	justify-content: center;
+	align-items: center;
+	height: 45px;
+}
+
+footer p {
+	color: #ddd;
+	font-size: 17px;
+}
+
+/*Akhir Footer*/
