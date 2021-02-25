@@ -2,7 +2,7 @@
 
 /*Ukuran max-width 375px*/
 @media screen and (max-width: 375px) {
-	
+
 	/*Nav*/
 
 	.container header {
@@ -21,17 +21,18 @@
 	.container nav ul li {
 		display: none;
 	}
+
 	/*Akhir Nav*/
 
 	/*Banner*/
 	.banner {
 		height: 125px;
 	}
+
 	/*Akhir Banner*/
 
 	/*Main*/
 	main section.intro {
-		border: 5px solid red;
 		width: 80%;
 	}
 
@@ -44,7 +45,6 @@
 	}
 
 	main section.reason {
-		border: 5px solid blue;
 		width: 80%;
 	}
 
@@ -55,14 +55,59 @@
 	section.reason p {
 		font-size: 18px;
 	}
+
+	.superior header {
+		display: flex;
+		flex-direction: column;
+		margin: 29px 0;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+	}
+
+	.superior .cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.cards p {
+		font-size: 18px;
+	}
+
+	.cards h4 {
+		font-size: 19px;
+	}
+
+	.cards .card1 {
+		width: 80%;
+		box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+		margin-bottom: 50px;
+	}
+
+	.cards .card2 {
+		width: 80%;
+		box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+		margin-bottom: 50px;
+	}
+
+	.cards .card3 {
+		width: 80%;
+		box-shadow: 3px 3px 3px rgba(0, 0, 0, .4);
+		margin-bottom: 30px;
+	}
+
+
 	/*Akhir Main*/
 
 	/*Footer*/
 	footer p {
-		font-size: 15px;
+		font-size: 13px;
 	}
+
 	/*Akhir Footer*/
 }
+
 /*Akhir*/
 
 
@@ -85,17 +130,18 @@
 	.container nav ul li {
 		display: none;
 	}
+
 	/*Akhir Nav*/
-	
+
 	/*Banner*/
 	.banner {
 		height: 130px;
 	}
+
 	/*Akhir Banner*/
 
 	/*Main*/
 	main section.intro {
-		border: 5px solid red;
 		width: 85%;
 	}
 
@@ -108,7 +154,6 @@
 	}
 
 	main section.reason {
-		border: 5px solid blue;
 		width: 85%;
 	}
 
@@ -119,6 +164,36 @@
 	section.reason p {
 		font-size: 19px;
 	}
+
+	.superior header {
+		margin: 33px 0;
+	}
+
+
+	.superior .cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.cards .card1 {
+		width: 80%;
+		margin-bottom: 50px;
+	}
+
+	.cards .card2 {
+		width: 80%;
+		margin-bottom: 50px;
+	}
+
+	.cards .card3 {
+		width: 80%;
+		margin-bottom: 30px;
+	}
+
+
 	/*Akhir Main*/
 }
 
@@ -129,17 +204,18 @@
 	.container nav ul li {
 		display: none;
 	}
+
 	/*Akhir Nav*/
 
 	/*Banner*/
 	.banner {
 		height: 233px;
 	}
+
 	/*Akhir Banner*/
 
 	/*Main*/
 	main section.intro {
-		border: 5px solid red;
 		width: 75%;
 	}
 
@@ -152,7 +228,6 @@
 	}
 
 	main section.reason {
-		border: 5px solid blue;
 		width: 75%;
 	}
 
@@ -163,6 +238,32 @@
 	section.reason p {
 		font-size: 19px;
 	}
+
+	.superior .cards {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+
+	.cards .card1 {
+		width: 70%;
+		margin-bottom: 50px;
+	}
+
+	.cards .card2 {
+		width: 70%;
+		margin-bottom: 50px;
+	}
+
+	.cards .card3 {
+		width: 70%;
+		margin-bottom: 30px;
+	}
+
+
 	/*Akhir Main*/
 }
 
@@ -171,4 +272,15 @@
 	.menu-toggle {
 		display: none;
 	}
+
+	/* Main */
+	.superior .cards {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	/* Akhir */
 }
