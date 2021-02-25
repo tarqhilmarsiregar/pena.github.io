@@ -1,0 +1,127 @@
+/* Responsive */
+
+/* Ukuran max-width 375px */
+@media screen and (max-width: 375px) {
+
+    /* Main */
+
+    .container main {
+        box-sizing: border-box;
+        width: 85%;
+        display: flex;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.dua .about1 {
+        border-left: 5px solid red;
+        width: 90%;
+        padding: 10px;
+        margin-bottom: 75px;
+    }
+
+    .about1 p {
+        font-size: 18px;
+    }
+
+    section.dua .about2 {
+        border-left: 5px solid deepskyblue;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .about2 p {
+        font-size: 18px;
+    }
+
+    /* Akhir */
+
+    /* Footer */
+    footer p {
+        font-size: 13px;
+    }
+
+    /* Akhir */
+}
+
+/* Akhir */
+
+/* Ukuran max-width 280px */
+@media screen and (max-width: 280px) {
+
+    /* Header */
+    .container header h3 {
+        font-size: 18px;
+    }
+
+    /* Akhir */
+
+    /* Main */
+    section.satu h4 {
+        font-size: 19px;
+    }
+
+    .about1 p {
+        font-size: 17;
+    }
+
+    .about2 p {
+        font-size: 17px;
+    }
+
+    /* Akhir */
+
+    /* Footer */
+    footer p {
+        font-size: 13px;
+    }
+
+    /* Akhir */
+
+}
+
+/* Akhir */
+
+/* Ukuran max-width 576px */
+@media screen and (max-width: 576px) {
+
+    /* Main */
+    .container main {
+        box-sizing: border-box;
+        width: 80%;
+        display: flex;
+    }
+
+    main section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.dua .about1 {
+        border-left: 5px solid red;
+        width: 95%;
+        padding: 10px;
+        margin-bottom: 75px;
+    }
+
+    .about1 p {
+        font-size: 18px;
+    }
+
+    section.dua .about2 {
+        border-left: 5px solid deepskyblue;
+        width: 95%;
+        padding: 10px;
+    }
+
+    .about2 p {
+        font-size: 18px;
+    }
+
+    /* Akhir */
+}
+
+/* Akhir */
