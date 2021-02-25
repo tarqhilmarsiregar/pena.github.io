@@ -94,7 +94,8 @@ body {
 .lesson li a {
 	color: #fff;
 }
-/* Awal : Lesson / Study*/ 
+
+/* Awal : Lesson / Study*/
 
 .menu-toggle {
 	display: flex;
@@ -122,7 +123,7 @@ body {
 	cursor: pointer;
 }
 
-.menu-toggle input:checked ~ .satu {
+.menu-toggle input:checked~.satu {
 	transform-origin: 0 0;
 	transform: rotate(45deg);
 	position: relative;
@@ -131,11 +132,11 @@ body {
 
 
 
-.menu-toggle input:checked ~ .dua {
+.menu-toggle input:checked~.dua {
 	transform: scale(0);
 }
 
-.menu-toggle input:checked ~ .tiga {
+.menu-toggle input:checked~.tiga {
 	transform-origin: 0 0;
 	transform: rotate(-45deg);
 	position: relative;
@@ -152,13 +153,14 @@ body {
 	box-sizing: border-box;
 	filter: saturate(1.5) brightness(1.2);
 }
+
 /*Akhir Banner*/
 
 
 /*Awal Main*/
 main {
 	box-sizing: border-box;
-	display: flex;	
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -211,6 +213,66 @@ section.reason h3 {
 section.reason p {
 	font-size: 19px;
 }
+
+/* Unggul */
+main .superior {
+	display: flex;
+	box-sizing: border-box;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 125px;
+}
+
+.superior header {
+	margin: 25px 0;
+	background-color: dodgerblue;
+	color: #ddd;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+}
+
+.superior .cards {
+	display: flex;
+	justify-content: space-evenly;
+	align-content: center;
+	width: 100%;
+	box-sizing: border-box;
+	margin-bottom: 50px;
+}
+
+.cards p {
+	font-size: 19px;
+}
+
+.cards .card1 {
+	width: 30%;
+	padding: 9px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+	border-left: 2px solid deepskyblue;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.cards .card2 {
+	width: 30%;
+	padding: 9px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+	border-left: 2px solid deeppink;
+	border-bottom-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.cards .card3 {
+	width: 30%;
+	padding: 9px;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+	border-left: 2px solid darkblue;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+/* Akhir */
 
 /*Akhir Main*/
 
