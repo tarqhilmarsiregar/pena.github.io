@@ -32,6 +32,7 @@
 	/*Akhir Banner*/
 
 	/*Main*/
+	/* Intro */
 	main section.intro {
 		width: 80%;
 	}
@@ -44,6 +45,9 @@
 		font-size: 18px;
 	}
 
+	/* Akhir intro */
+
+	/* Reason */
 	main section.reason {
 		width: 80%;
 	}
@@ -56,6 +60,9 @@
 		font-size: 18px;
 	}
 
+	/* Akhir Reason */
+
+	/* Unggul */
 	.superior header {
 		display: flex;
 		flex-direction: column;
@@ -97,6 +104,54 @@
 		margin-bottom: 30px;
 	}
 
+	/* Akhir Unggul */
+
+	/* Opinion */
+	.opinion {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.opinion .opini {
+		padding: 12px;
+		box-sizing: border-box;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.opini .opini1 {
+		box-sizing: border-box;
+		width: 100%;
+		margin-bottom: 50px;
+	}
+
+	.opini1 h4 {
+		font-size: 18px;
+	}
+
+	.opini1 q {
+		font-size: 17px;
+	}
+
+	.opini .opini2 {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.opini2 .opini-img2 {
+		margin-top: 23px;
+	}
+
+	.opini2 h4 {
+		font-size: 18px;
+	}
+
+	.opini2 q {
+		font-size: 17px;
+	}
+
+	/* Akhir Opinion */
 
 	/*Akhir Main*/
 
@@ -141,6 +196,7 @@
 	/*Akhir Banner*/
 
 	/*Main*/
+	/* Intro */
 	main section.intro {
 		width: 85%;
 	}
@@ -153,6 +209,9 @@
 		font-size: 19px;
 	}
 
+	/* Akhir Intro */
+
+	/* Reason */
 	main section.reason {
 		width: 85%;
 	}
@@ -165,10 +224,12 @@
 		font-size: 19px;
 	}
 
+	/* Akhir Reason */
+
+	/* Unggul */
 	.superior header {
 		margin: 33px 0;
 	}
-
 
 	.superior .cards {
 		display: flex;
@@ -193,6 +254,39 @@
 		margin-bottom: 30px;
 	}
 
+	/* Akhir Unggul */
+
+	/* Opinion */
+	.opinion {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.opinion .opini {
+		box-sizing: border-box;
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.opini .opini1 {
+		box-sizing: border-box;
+		width: 90%;
+		margin-bottom: 50px;
+	}
+
+	.opini .opini2 {
+		box-sizing: border-box;
+		width: 90%;
+	}
+
+	.opini2 .opini-img2 {
+		margin-top: 23px;
+	}
+
+	/* Akhir Opinion */
 
 	/*Akhir Main*/
 }
@@ -219,6 +313,7 @@
 		width: 75%;
 	}
 
+	/* Intro */
 	section.intro h3 {
 		font-size: 22px;
 	}
@@ -227,6 +322,9 @@
 		font-size: 19px;
 	}
 
+	/* Akhir intro */
+
+	/* Reason */
 	main section.reason {
 		width: 75%;
 	}
@@ -239,6 +337,9 @@
 		font-size: 19px;
 	}
 
+	/* Akhir reason */
+
+	/* Unggul */
 	.superior .cards {
 		display: flex;
 		flex-direction: column;
@@ -246,7 +347,6 @@
 		width: 100%;
 		box-sizing: border-box;
 	}
-
 
 	.cards .card1 {
 		width: 70%;
@@ -263,6 +363,39 @@
 		margin-bottom: 30px;
 	}
 
+	/* Akhir unggul */
+
+	/* Opinion */
+	.opinion {
+		box-sizing: border-box;
+		width: 100%;
+	}
+
+	.opinion .opini {
+		box-sizing: border-box;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.opini .opini1 {
+		box-sizing: border-box;
+		width: 85%;
+		margin: 50px;
+	}
+
+	.opini .opini2 {
+		box-sizing: border-box;
+		width: 85%;
+	}
+
+	.opini2 .opini-img2 {
+		margin-top: 23px;
+	}
+
+	/* Akhir Opinion */
 
 	/*Akhir Main*/
 }
@@ -274,6 +407,7 @@
 	}
 
 	/* Main */
+	/* Unggul */
 	.superior .cards {
 		display: flex;
 		flex-direction: row;
@@ -282,5 +416,28 @@
 		box-sizing: border-box;
 	}
 
-	/* Akhir */
+	/* Akhir unggul */
+	/* Opinion */
+
+	.opinion .opini {
+		box-sizing: border-box;
+		width: 75%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.opini .opini1 {
+		box-sizing: border-box;
+		width: 40%;
+		margin-right: 21px;
+	}
+
+	.opini .opini2 {
+		box-sizing: border-box;
+		width: 40%;
+	}
+
+	/* Akhir Opinion */
+
+	/* Akhir Main*/
 }
