@@ -155,6 +155,18 @@
 
 	/*Akhir Main*/
 
+	/* Button */
+	.button {
+		width: 100%;
+	}
+
+	.button button {
+		padding: 5px;
+		font-size: 16px;
+	}
+
+	/* Akhir button */
+
 	/*Footer*/
 	footer p {
 		font-size: 13px;
@@ -289,6 +301,13 @@
 	/* Akhir Opinion */
 
 	/*Akhir Main*/
+
+	/* Button */
+	.button {
+		width: 45%;
+	}
+
+	/* Akhir button */
 }
 
 /*Ukuran max-width 768px*/
@@ -398,6 +417,18 @@
 	/* Akhir Opinion */
 
 	/*Akhir Main*/
+
+	/* Button */
+	.button {
+		width: 29%;
+	}
+
+	.button button {
+		padding: 7px;
+		font-size: 15px;
+	}
+
+	/* Akhir button */
 }
 
 
