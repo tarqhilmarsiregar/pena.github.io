@@ -359,6 +359,41 @@ main .superior {
 
 /*Akhir Main*/
 
+/* Button */
+section.learn {
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 50px;
+	padding: 10px;
+}
+
+.button {
+	box-sizing: border-box;
+	width: 13%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.button button {
+	background-color: deepskyblue;
+	color: #fff;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.button button:hover {
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, .5);
+}
+
+/* Akhir button */
+
 /*Awal Footer*/
 
 footer {
